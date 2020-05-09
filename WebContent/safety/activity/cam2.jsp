@@ -9,7 +9,7 @@
 <html>
 <head>
 <meta charset="UTF-8">
-<title>Insert title here</title>
+<title>cam1</title>
 <%
 	String no = request.getParameter("bno");		//삭제 기능 수행 해야하므로 위에 올리기
 
