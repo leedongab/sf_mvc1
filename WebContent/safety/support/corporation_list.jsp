@@ -1,7 +1,7 @@
 <%@page import="vo.DNVO"%>
 <%@page import="dao.DNDAO"%>
-<%@page import="dao.SsabalDAO"%>
-<%@page import="vo.SsabalVO"%>
+<%@page import="dao.PersonalDNDAO"%>
+<%@page import="vo.PersonalDNVO"%>
 <%@page import="java.util.ArrayList"%>
 <%@ page language="java" contentType="text/html; charset=UTF-8"
     pageEncoding="UTF-8"%>

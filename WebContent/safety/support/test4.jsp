@@ -1,7 +1,7 @@
 <%@page import="vo.DNVO"%>
 <%@page import="dao.DNDAO"%>
-<%@page import="vo.SsabalVO"%>
-<%@page import="dao.SsabalDAO"%>
+<%@page import="vo.PersonalDNVO"%>
+<%@page import="dao.PersonalDNDAO"%>
 <%@ page language="java" contentType="text/html; charset=UTF-8"
     pageEncoding="UTF-8"%>
 <!DOCTYPE html>
@@ -14,9 +14,8 @@
    google.charts.load('current', {'packages':['corechart']});
    google.charts.setOnLoadCallback(drawVisualization);
 
-   <%
-   SsabalVO vo = new SsabalVO();
-   SsabalDAO dao = new SsabalDAO();
+   <%PersonalDNVO vo = new PersonalDNVO();
+   PersonalDNDAO dao = new PersonalDNDAO();
 
    DNDAO dao1 = new DNDAO();
    DNVO vo1 = new DNVO();
@@ -56,9 +55,7 @@
 
    System.out.println("total1 : "+total1);
    System.out.println("total2 : "+total2);
-   System.out.println("total3 : "+total3);
-
-   %>
+   System.out.println("total3 : "+total3);%>
 
    function drawVisualization() {
       var data = google.visualization.arrayToDataTable([

@@ -9,17 +9,17 @@ import java.util.ArrayList;
 
 import dao.OracleXEConnection;
 
-import vo.SsabalVO;
+import vo.PersonalDNVO;
 
 
 
-public class SsabalDAO {
+public class PersonalDNDAO {
 	StringBuffer sb = new StringBuffer();
 	ResultSet rs = null;
 	PreparedStatement ps = null;
 	Connection conn = null;
 
-	public SsabalDAO() { // dbcon을 압축해서 짧게 사용합니다.
+	public PersonalDNDAO() { // dbcon을 압축해서 짧게 사용합니다.
 		conn = OracleXEConnection.getInstance().getConnection();
 	}// 생성자 end
 
@@ -48,8 +48,8 @@ public class SsabalDAO {
 
 	//=========================================================================================
 	   //전체 조회 - getAllData()
-	   public ArrayList<SsabalVO> getEverthing() {
-	      ArrayList<SsabalVO> list = new ArrayList<SsabalVO>();
+	   public ArrayList<PersonalDNVO> getEverthing() {
+	      ArrayList<PersonalDNVO> list = new ArrayList<PersonalDNVO>();
 
 	      sb.setLength(0);
 	      sb.append("select * from ssabal ");
@@ -68,7 +68,7 @@ public class SsabalDAO {
 	            String attrs = rs.getString(6);		//후원방식
 	            String names = rs.getString(7);		//후원자 이름
 
-	            SsabalVO vo = new SsabalVO(onenumber, accounts, ids, donation, mof, attrs, names);
+	            PersonalDNVO vo = new PersonalDNVO(onenumber, accounts, ids, donation, mof, attrs, names);
 
 	            list.add(vo);
 	         }
@@ -135,8 +135,8 @@ public class SsabalDAO {
 	   }//end
 
 	   //이름 불러오기
-	   public ArrayList<SsabalVO> callNames() {
-		      ArrayList<SsabalVO> list = new ArrayList<SsabalVO>();
+	   public ArrayList<PersonalDNVO> callNames() {
+		      ArrayList<PersonalDNVO> list = new ArrayList<PersonalDNVO>();
 
 		      sb.setLength(0);
 		      sb.append("select * from ssabal ");
@@ -154,7 +154,7 @@ public class SsabalDAO {
 		            String mof = rs.getString(6);		//후원방법
 		            String attrs = rs.getString(7);		//후원방식
 
-		            SsabalVO vo = new SsabalVO(onenumber, accounts, ids, donation, mof, attrs, names);
+		            PersonalDNVO vo = new PersonalDNVO(onenumber, accounts, ids, donation, mof, attrs, names);
 
 		            list.add(vo);
 		         }
@@ -166,8 +166,8 @@ public class SsabalDAO {
 		   }
 
 	   //흐흠				select names, REPLACE(names, substr(names,2,1),'*') 'names' from ssabal
-	   public ArrayList<SsabalVO> blurrys() {
-		      ArrayList<SsabalVO> list = new ArrayList<SsabalVO>();
+	   public ArrayList<PersonalDNVO> blurrys() {
+		      ArrayList<PersonalDNVO> list = new ArrayList<PersonalDNVO>();
 
 		      sb.setLength(0);
 		      sb.append("select REPLACE(names, substr(names,2,1),'*') \"names\", onenumber, accounts, ids, donation, mof, attrs\n ");
@@ -186,7 +186,7 @@ public class SsabalDAO {
 		            String mof = rs.getString(6);		//후원방법
 		            String attrs = rs.getString(7);		//후원방식
 
-		            SsabalVO vo = new SsabalVO(onenumber, accounts, ids, donation, mof, attrs, names);
+		            PersonalDNVO vo = new PersonalDNVO(onenumber, accounts, ids, donation, mof, attrs, names);
 
 		            list.add(vo);
 		         }

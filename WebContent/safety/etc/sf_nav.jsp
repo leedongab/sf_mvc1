@@ -118,10 +118,10 @@ $(function() {
                         <a href="../Introduce/safety_ci.jsp" class="navi_hide_a">ci소개</a>
                     </li>
                     <li class="hide_li">
-                        <a href="../Introduce/siteMap.jsp" class="navi_hide_a">사이트맵</a>
+                        <a href="../Introduce/safety_map.jsp" class="navi_hide_a">사이트맵</a>
                     </li>
                     <li class="hide_li">
-                        <a href="../Introduce/map.jsp" class="navi_hide_a">위치정보</a>
+                        <a href="../Introduce/safety_siteMap.jsp" class="navi_hide_a">위치정보</a>
                     </li>
 
                 </ul>

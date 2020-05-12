@@ -1,5 +1,5 @@
-<%@page import="dao.SsabalDAO"%>
-<%@page import="vo.SsabalVO"%>
+<%@page import="dao.PersonalDNDAO"%>
+<%@page import="vo.PersonalDNVO"%>
 <%@page import="java.util.ArrayList"%>
 <%@ page language="java" contentType="text/html; charset=UTF-8"
     pageEncoding="UTF-8"%>
@@ -51,10 +51,10 @@
     </tr>
 
     <%
-   		SsabalDAO dao = new SsabalDAO();
-    	ArrayList<SsabalVO> list = dao.blurrys();
+    	PersonalDNDAO dao = new PersonalDNDAO();
+            	ArrayList<PersonalDNVO> list = dao.blurrys();
 
-    	for(SsabalVO vo : list){
+            	for(PersonalDNVO vo : list){
     %>
     	<tr>
     		<td><%= vo.getNames() %></td>

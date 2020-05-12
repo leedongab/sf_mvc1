@@ -1,5 +1,5 @@
-<%@page import="dao.SsabalDAO"%>
-<%@page import="vo.SsabalVO"%>
+<%@page import="dao.PersonalDNDAO"%>
+<%@page import="vo.PersonalDNVO"%>
 <%@page import="vo.DNVO"%>
 <%@page import="dao.DNDAO"%>
 <%@ page language="java" contentType="text/html; charset=UTF-8"
@@ -29,10 +29,10 @@ $(document).ready(function() {
 
 </head>
 <%
-DNDAO dao = new DNDAO();
+	DNDAO dao = new DNDAO();
 DNVO vo = new DNVO();
-SsabalVO vo1 = new SsabalVO();
-SsabalDAO dao1 = new SsabalDAO();
+PersonalDNVO vo1 = new PersonalDNVO();
+PersonalDNDAO dao1 = new PersonalDNDAO();
 
 
 int sumsum = dao.getsum();
@@ -43,7 +43,6 @@ System.out.println(sumsum);
 
 int hapsum = sumsum+sumsum1;
 int happeo = people+people1;
-
 %>
 <style>.topsi{height:25px;}.bottomis{height:420px;}
 #btndd{ border: 1px solid skyblue; background-color: rgba(0,0,0,0); color: skyblue;

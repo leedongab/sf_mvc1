@@ -1,6 +1,6 @@
 package vo;
 
-public class SsabalVO {
+public class PersonalDNVO {
 	  private String onenumber;
 	  private String accounts;
 	  private String ids;
@@ -10,12 +10,12 @@ public class SsabalVO {
 	  private String names;
 	  
 	  
-	public SsabalVO() {
+	public PersonalDNVO() {
 		super();
 	}
 
 
-	public SsabalVO(String onenumber, String accounts, String ids, int donation, String mof, String attrs,
+	public PersonalDNVO(String onenumber, String accounts, String ids, int donation, String mof, String attrs,
 			String names) {
 		super();
 		this.onenumber = onenumber;

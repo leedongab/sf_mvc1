@@ -1,22 +1,22 @@
 @charset "EUC-KR";
 
-* {
-	font-family: "³ª´®½ºÄù¾î";
-}
+
 
 .sf_div_wrap {
+	 margin-top: 1600px;
 width: 1920px;
-height: 1050px;
+
 }
 
 #contents {
 	width: 1200px;
-	height: 800px;
+	height: 600px;
 	position: absolute;
 	left: 50%;
 	top: 50%;
+	margin-top: 500px;
 	margin-left: -600px;
-	margin-top: -400px;
+
 }
 
 #container {
