@@ -6,7 +6,7 @@
 <meta charset="EUC-KR">
 
 
-<link rel="stylesheet" href="../css/sf_ServiceCenter.css">
+<link rel="stylesheet" href="../css/safety_mainpage_ServiceCenter.css">
 <script type="text/javascript">
 
 $(function() {

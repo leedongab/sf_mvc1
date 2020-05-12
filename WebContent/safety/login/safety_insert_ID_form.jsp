@@ -13,7 +13,7 @@
 <meta charset="UTF-8">
 
 <title>sf_insert_ID_fom.jsp</title>
-<link rel="stylesheet" href="../css/sf_find_ID.css">
+<link rel="stylesheet" href="../css/safety_find_ID.css">
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
 <script type="text/javascript">
 

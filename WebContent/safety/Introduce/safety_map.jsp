@@ -8,8 +8,8 @@
 <meta charset="UTF-8">
 <title>오시는 길</title>
 <!-- map.jsp -->
-<link rel="stylesheet" href="../css/main.css" />
-<link rel="stylesheet" href="../css/map.css" />
+<link rel="stylesheet" href="../css/safety_map_main.css" />
+<link rel="stylesheet" href="../css/safety_map.css" />
 <script src="https://maps.googleapis.com/maps/api/js?sensor=false"></script>
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
 <script type="text/javascript">

@@ -3,7 +3,7 @@
 <!DOCTYPE html>
 
 
-<link rel="stylesheet" href="../css/sf_ci.css" />
+<link rel="stylesheet" href="../css/safety_mainpage_ci.css" />
 <script type="text/javascript">
 $(function() {
 

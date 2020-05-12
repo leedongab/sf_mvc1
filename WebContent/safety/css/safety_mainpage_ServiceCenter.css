@@ -1,17 +1,17 @@
 @charset "EUC-KR";
+
 * {
 	margin: 0px;
 	padding: 0px;
 	font-family: "³ª´®½ºÄù¾î";
-
-}
-.sf_ServiceCenter_div{
-width: 1920px;
-height: 700px;
-
 }
 
-.TheNews_div{
+.sf_ServiceCenter_div {
+	width: 1920px;
+	height: 700px;
+}
+
+.TheNews_div {
 	margin-top: 180px;
 	width: 320px;
 	height: 320px;
@@ -61,18 +61,18 @@ height: 700px;
 
 .sf_ServiceCenter_icon1 {
 	margin-left: 50px;
-
 }
-
 
 .sf_ServiceCenter_btn1 {
 	margin-left: 200px;
 	margin-top: -25px;
 }
+
 .sf_ServiceCenter_btn2 {
 	margin-left: 200px;
 	margin-top: -25px;
 }
+
 .sf_ServiceCenter_btn3 {
 	margin-left: 200px;
 	margin-top: -25px;

@@ -4,7 +4,7 @@
 
 <meta charset="EUC-KR">
 
-<link rel="stylesheet" href="../css/sf_supporter.css">
+<link rel="stylesheet" href="../css/safety_mainpage_supporter.css">
 
 <script type="text/javascript">
 

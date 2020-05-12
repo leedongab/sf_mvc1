@@ -133,7 +133,7 @@
 		</div>
 	</div>
 
-<jsp:include page="property/mainsecond.jsp" />
+<jsp:include page="property/sf_maincampaign.jsp" />
 <jsp:include page="property/sf_campaign.jsp" />
 <jsp:include page="property/sf_supporter.jsp" />
 <jsp:include page="property/sf_ci.jsp" />

@@ -6,8 +6,8 @@
 <meta charset="UTF-8">
 <title>사이트맵</title>
 <!-- siteMap.jsp -->
-<link rel="stylesheet" href="../css/main.css" />
-<link rel="stylesheet" href="../css/siteMap.css" />
+<link rel="stylesheet" href="../css/safety_map_main.css" />
+<link rel="stylesheet" href="../css/safety_siteMap.css" />
 <script
 	src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
 

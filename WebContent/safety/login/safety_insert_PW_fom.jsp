@@ -13,7 +13,7 @@
 <meta charset="UTF-8">
 
 <title>비밀번호 변경</title>
-<link rel="stylesheet" href="../css/sf_insert_PW_fom.css">
+<link rel="stylesheet" href="../css/safety_insert_PW_fom.css">
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
 <script type="text/javascript">
 

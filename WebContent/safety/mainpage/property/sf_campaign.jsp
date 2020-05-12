@@ -1,7 +1,7 @@
 <%@ page language="java" contentType="text/html; charset=EUC-KR"
     pageEncoding="EUC-KR"%>
 <!DOCTYPE html>
-<link rel="stylesheet" href="../css/sf_campaign.css">
+<link rel="stylesheet" href="../css/safety_mainpage_campaign.css">
 <script type="text/javascript">
 $(function() {
 	$('.sf_campaign_title_txt2').hide();
