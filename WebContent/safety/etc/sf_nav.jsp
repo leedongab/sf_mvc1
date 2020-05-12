@@ -78,7 +78,7 @@ $(function() {
 
 
 	        <% if(ad==null && mem==null){%>
-                <a href="../../safety/login/safetyLogin.jsp"><img src="../../safety/image/sf_icon_login.png" alt="" id="navi_menu_icon"/></a>
+                <a href="../login/safety_Login.jsp"><img src="../../safety/image/sf_icon_login.png" alt="" id="navi_menu_icon"/></a>
                 <% }else if(ad==null && mem!=null) { %>
 
                 <a href="마이페이지" id="loginOK_c" ><%=mem %> 님 환영합니다. </a>

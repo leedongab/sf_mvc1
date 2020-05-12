@@ -19,7 +19,7 @@
 
 			vo = dao.getData(bno);
 		}else{
-			response.sendRedirect("campaign.jsp");	//DB터지면 최초 화면으로 돌려놓\기
+			response.sendRedirect("safety_campaign_main.jsp");	//DB터지면 최초 화면으로 돌려놓\기
 		}
  %>
 
