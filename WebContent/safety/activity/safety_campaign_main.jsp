@@ -193,7 +193,7 @@
 		<div id="com">
 
 			<a href="<%=vo.getCamlink() %>?bno=<%=vo.getBno() %>">
-				<img id="camimg" src="../<%=vo.getCamimg() %>" alt="<%=vo.getCamtitle() %>" />
+				<img id="camimg" src="../../WebContent<%=vo.getCamimg() %>" alt="<%=vo.getCamtitle() %>" />
 			</a>
 			<div class="p1" style="padding-top: 30px;"><%=vo.getCamtitle() %></div>
 			<div class="p2"><%=vo.getCamcontents() %></div>

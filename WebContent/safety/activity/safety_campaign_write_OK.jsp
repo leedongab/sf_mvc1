@@ -9,7 +9,7 @@
  	// 사용자가 입력한 데이터를 브라우저 화면에 출력해보세요
  	// 바로 DBMS에 접근하지 말고 확인하는 습관을 가지세요!
  	// 브라우저 또는 콘솔에 먼저 출력해보세요
- 	String saveDir = request.getRealPath("upload");
+ 	String saveDir = request.getRealPath("sf/upload");
 
 	int maxFileSize = 1024*1024*10;
 
