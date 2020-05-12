@@ -13,9 +13,6 @@
 	out.println("<script>alert('로그아웃되었습니다'); history.back();</script>");
 	response.sendRedirect("../mainpage/main.jsp");
 %>
-
-
-
 </head>
 <body>
 

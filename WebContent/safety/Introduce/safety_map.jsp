@@ -14,12 +14,12 @@
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
 <script type="text/javascript">
 	$(function() {
-		
+
 		var X_point = 37.482121;
 		var Y_point = 126.898218;
-		
+
 		var zoomLevel = 17;
-		
+
 		var markerTitle = "구트";
 		var markermaxWidth =300;
 
@@ -36,7 +36,7 @@
 			$(this).css("border", "1px solid #BDBDBD");
 		});
 	});
-	
+
 	function initialize() {
 		var myLatlng = new google.maps.LatLng(37.482121, 126.898218);
 		var mapOptions = {
@@ -44,28 +44,28 @@
 		    center: myLatlng,
 		    mapTypeId: google.maps.MapTypeId.ROADMAP
 		}
-		
+
 		var map = new google.maps.Map(document.getElementById('map'), mapOptions);
-		
+
 		var marker = new google.maps.Marker({position: myLatlng, map: map});
-		
+
 		/* map marker = new google.maps.Marker({
 			position: myLatlng,
 			map: map,
 			title markerTitle
 		});
-		
+
 		var infowindow = new google.maps.InfoWindow({
 			contents: contentString,
 			maxWidth: markerMaxWidth
 		});
-		
+
 		google.maps.event.addListener(marker, 'click', function(){
 			infowindow.open(map, marker);
 		}); */
-		
+
 	}
-	
+
 </script>
 </head>
 <body onload="initialize()">
@@ -73,15 +73,15 @@
 	<div class="m">
 	<div class="main">
 		<jsp:include page="../etc/sf_nav.jsp"></jsp:include>
-		
-		
+
+
 		<div class="customer">
 			<h2>Safety 재단 오시는 길</h2>
 		</div>
 		<div class="boardBack">
 			<div id="map">
 			</div>
-			
+
 			<div class="bb_under">
 				<div class="bb_under_left">
 					<h3>Safety 재단 본부</h3>
@@ -127,7 +127,7 @@
 				</div>
 			</div>
 		</div>
-		
+
 	</div>
 	<jsp:include page="../etc/project_footer.jsp"></jsp:include>
 	</div>

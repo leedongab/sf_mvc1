@@ -47,17 +47,17 @@ $(function() {
 
 
 	});
-function initialize() {
-	var myLatlng = new google.maps.LatLng(37.482121, 126.898218);
-	var mapOptions = {
-	    zoom: 16,
-	    center: myLatlng,
-	    mapTypeId: google.maps.MapTypeId.ROADMAP
-	}
+		function initialize() {
+			var myLatlng = new google.maps.LatLng(37.482121, 126.898218);
+			var mapOptions = {
+			    zoom: 16,
+			    center: myLatlng,
+			    mapTypeId: google.maps.MapTypeId.ROADMAP
+			}
 
-	var map = new google.maps.Map(document.getElementById('map'), mapOptions);
+			var map = new google.maps.Map(document.getElementById('map'), mapOptions);
 
-	var marker = new google.maps.Marker({position: myLatlng, map: map});
+			var marker = new google.maps.Marker({position: myLatlng, map: map});
 
 
 

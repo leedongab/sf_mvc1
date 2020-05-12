@@ -19,10 +19,8 @@
 
 <body>
 	<jsp:include page="../etc/sf_nav.jsp" />
-		<jsp:include page="../etc/dona.jsp" />
- <div class="safety_history_div">
-
-
+	<jsp:include page="../etc/dona.jsp" />
+ 	<div class="safety_history_div">
             <!-- w1920  h900 -->
             <div class="history_contents_div">
                 <!-- w1200 -->
@@ -54,7 +52,7 @@
             </div>
 
         </div>
-           <jsp:include page="../etc/project_footer.jsp" />
+        <jsp:include page="../etc/project_footer.jsp" />
 
 
 

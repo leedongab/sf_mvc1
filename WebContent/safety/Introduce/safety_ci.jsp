@@ -19,9 +19,9 @@
 </head>
 
 <body>
-<div class="sf_ci_div">
+  <div class="sf_ci_div">
 	<jsp:include page="../etc/dona.jsp" />
-<jsp:include page="../../safety/etc/sf_nav.jsp" />
+	<jsp:include page="../../safety/etc/sf_nav.jsp" />
             <!-- 19201400 -->
             <div class="ci_logo_div">
                 <!-- 215 -->
@@ -107,10 +107,7 @@
             </div>
 
         </div>
-<jsp:include page="../etc/project_footer.jsp" />
-
-
-
+	<jsp:include page="../etc/project_footer.jsp" />
 </body>
 
 </html>
