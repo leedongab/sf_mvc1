@@ -45,7 +45,7 @@
 		%>
 		  <script>
 	        alert("아이디 및 비번이 틀렸습니다.");
-	        location.href = "safetyLogin.jsp";
+	        location.href = "safety_Login.jsp";
 	    </script>
 		<%
 		}
@@ -63,7 +63,7 @@ if(flg2){
 	%>
 	  <script>
         alert("아이디 및 비번이 틀렸습니다.");
-        location.href = "safetyLogin.jsp";
+        location.href = "safety_Login.jsp";
     </script>
 	<%
 	}

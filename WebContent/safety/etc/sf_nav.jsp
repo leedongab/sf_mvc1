@@ -63,7 +63,7 @@ $(function() {
                         </a>
                     </li>
                     <li class="list_li">
-                        <a href="../activity/supmain.jsp" class="navi_a">활동</a>
+                        <a href="../activity/safety_activity_main.jsp" class="navi_a">활동</a>
                     </li>
                     <li class="list_li">
                         <a href="../ServiceCenter/customer_center.jsp" class="navi_a">고객센터</a>
@@ -150,10 +150,10 @@ $(function() {
                 <ul class="hide_ul3">
                     <!-- 소개 세부 -->
                     <li class="hide_li">
-                        <a href="../activity/campaign.jsp" class="navi_hide_a">캠페인</a>
+                        <a href="../activity/safety_campaign_main.jsp" class="navi_hide_a">캠페인</a>
                     </li>
                     <li class="hide_li">
-                        <a href="../support/caminfor.jsp" class="navi_hide_a">후원자가이드</a> <!-- 미정  -->
+                        <a href="../activity/safety_campaign_guide.jsp" class="navi_hide_a">후원자가이드</a> <!-- 미정  -->
                     </li>
                     <li class="hide_li">
                         <a href="../activity/safety_gift.jsp" class="navi_hide_a">후원자선물가게</a><!-- 미정  -->
