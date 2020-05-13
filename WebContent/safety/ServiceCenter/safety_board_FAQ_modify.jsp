@@ -7,20 +7,20 @@
 	String no = request.getParameter("bno");
 	board_FAQ_VO vo = new board_FAQ_VO();
 	board_FAQ_Dao dao = new board_FAQ_Dao();
-	
-	
+
+
 	int bno = 0;
-	
+
 	if (no != null) {
 		bno = Integer.parseInt(no);
-		
+
 		vo = dao.getData(bno);
 	} else {
 		response.sendRedirect("question_answer_manager.jsp");
 	}
-	
-	
-	
+
+
+
 %>
 <html>
 <head>
@@ -38,22 +38,22 @@
 		$(".subinquiry_area").val('<%= vo.getFaq_subInquiry() %>').attr("selected", "selected");
 
 
-		
+
 		$(".table_Bt.third").on('click', function(){
 			var flag = confirm("정말 삭제하시겠습니까?");
-			
-			
+
+
 		});
 	});
 
 	function modifyData(obj){
 		var flag = confirm("정말 수정하시겠습니까?");
-		
+
 		if(flag) {
 			obj.form.submit();
-			
+
 		}
-		
+
 	}
 
 
@@ -62,7 +62,7 @@
 </head>
 <body>
 	<jsp:include page="../etc/dona.jsp"></jsp:include>
-	
+
 	<div class="m">
 		<jsp:include page="../etc/sf_nav.jsp"></jsp:include>
 

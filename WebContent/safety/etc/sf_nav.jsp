@@ -165,16 +165,16 @@ $(function() {
                 <ul class="hide_ul4">
                     <!-- 소개 세부 -->
                     <li class="hide_li">
-                        <a href="../ServiceCenter/question_answer.jsp" class="navi_hide_a">Q&A</a>
+                        <a href="../ServiceCenter/safety_question_answer.jsp" class="navi_hide_a">Q&A</a>
                     </li>
                     <li class="hide_li">
-                        <a href="../ServiceCenter/help.jsp?fno=personal_infor" class="navi_hide_a">개인정보처리방침</a>
+                        <a href="../ServiceCenter/help.jsp?fno=safety_personal_infor" class="navi_hide_a">개인정보처리방침</a>
                     </li>
                     <li class="hide_li">
-                        <a href="../ServiceCenter/help.jsp?fno=access" class="navi_hide_a">이용약관</a>
+                        <a href="../ServiceCenter/help.jsp?fno=safety_access" class="navi_hide_a">이용약관</a>
                     </li>
                     <li class="hide_li">
-                    	<a href="../ServiceCenter/help.jsp?fno=personal_info_collectUse" class="navi_hide_a">개인정보 수집 및 이용</a>
+                    	<a href="../ServiceCenter/help.jsp?fno=safety_personal_info_collectUse" class="navi_hide_a">개인정보 수집 및 이용</a>
                     </li>
 
 

@@ -94,19 +94,19 @@
 
 		<div class="boardBack">
 			<ul id="bb_ul">
-				<a href="question_answer.jsp" class="bb">
+				<a href="safety_question_answer.jsp" class="bb">
 					<li class="bb_li">전체</li>
 				</a>
-				<a href="question_answer.jsp?cctxt=후원관련" class="bb">
+				<a href="safety_question_answer.jsp?cctxt=후원관련" class="bb">
 					<li class="bb_li">후원관련</li>
 				</a>
-				<a href="question_answer.jsp?cctxt=결제관련" class="bb">
+				<a href="safety_question_answer.jsp?cctxt=결제관련" class="bb">
 					<li class="bb_li">결제관련</li>
 				</a>
-				<a href="question_answer.jsp?cctxt=기타" class="bb">
+				<a href="safety_question_answer.jsp?cctxt=기타" class="bb">
 					<li class="bb_li">기타</li>
 				</a>
-				<a href="inquiry.jsp" class="bb">
+				<a href="safety_inquiry.jsp" class="bb">
 					<li class="bb_li" id="bb1_li">나의 문의</li>
 				</a>
 			</ul>
