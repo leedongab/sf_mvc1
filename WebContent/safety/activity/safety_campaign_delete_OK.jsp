@@ -13,9 +13,9 @@
 		CampaignDAO dao = new CampaignDAO();
 		dao.deleteData(bno);
 
-		response.sendRedirect("campaign.jsp");
+		response.sendRedirect("safety_campaign_main.jsp");
 	}else{
-		response.sendRedirect("campaign.jsp");
+		response.sendRedirect("safety_campaign_main.jsp");
 	}
 
 

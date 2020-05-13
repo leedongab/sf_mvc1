@@ -43,7 +43,7 @@
  	dao.addData(vo);
 
  	 //DB에 저장이 잘 됐으면 게시판 메인으로 화면 이동
- 	response.sendRedirect("campaign.jsp");
+ 	response.sendRedirect("safety_campaign_main.jsp");
 
 
 

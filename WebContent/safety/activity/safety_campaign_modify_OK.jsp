@@ -35,7 +35,7 @@
  	dao.addData(vo);
 
 
- 	response.sendRedirect("campaign.jsp");
+ 	response.sendRedirect("safety_campaign_main.jsp");
 
 
 
